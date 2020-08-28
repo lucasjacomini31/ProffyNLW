@@ -1,0 +1,186 @@
+#page-makeLogin {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-makeLogin .pageRight{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--color-primary);
+}
+
+
+#page-makeLogin .pageRight img{
+    transform: rotate(90deg);
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+}
+
+#page-makeLogin .pageRight .pageRightText {
+    display: flex;
+    flex-direction: column;
+}
+
+#page-makeLogin .pageRight .pageRightText img {
+    width: 32rem;
+    top: 18rem;
+    position: absolute;
+    left: 5rem;
+    transform: rotate(360deg);
+}
+
+#page-makeLogin .pageRight .pageRightText p {
+    color: var(--color-text-in-primary);
+    font-size: 55px;
+    max-width: 25rem;
+    font: 500 2.5rem Poppins;
+    position: absolute;
+    top: 46rem;
+    left: 8rem;
+}
+
+#page-makeLogin .pageLeft{
+    width: 45%;
+    height: 100vh;
+}
+
+#page-makeLogin .pageLeft main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-makeLogin .pageLeft main form {
+    width: 400px;
+}
+
+#page-makeLogin .pageLeft main form fieldset{
+    border: 0;
+    padding: 0 2.4rem;
+}
+
+#page-makeLogin .pageLeft main form fieldset legend{
+    font: 500 4.5rem Poppins;
+    font-weight: 'bold';
+    color: var(--color-text-title)
+}
+
+
+#page-makeLogin .pageLeft main form fieldset .input-block {
+    margin-top: 50px;
+}
+
+#page-makeLogin .pageLeft main form fieldset .input-block + .input-block {
+    margin-top: 0;
+}
+
+#page-makeLogin .pageLeft main form fieldset .input-block input {
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+#page-makeLogin .pageLeft main form fieldset .input-block input#Senha  {
+    margin-top: 0;
+    border-radius: 0 0 0.8rem 0.8rem;
+}
+
+
+
+#page-makeLogin .pageLeft main form fieldset .footer {
+    display: flex;
+    font: 500 1.1rem Poppins;
+    font-weight: 'bold';
+    margin-top: 10px;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-makeLogin .pageLeft main form fieldset .footer  a{
+   text-decoration: none;
+   font: 500 1.5rem Poppins;
+   color: var(--color-text-complement);
+}
+
+
+#page-makeLogin .pageLeft main form fieldset .footer input.cbRemember {
+    width: 25px;
+    height: 25px;
+    background: #04D361;
+}
+
+#page-makeLogin .pageLeft main form fieldset .footer-button{
+    display: flex;
+    margin-top: 15rem;
+    justify-content: space-between;
+}
+#page-makeLogin .pageLeft main form fieldset .footer-button .free{
+    align-items: center;
+}
+
+#page-makeLogin .pageLeft main form fieldset .footer-button img{
+    margin-left: 5px;
+}
+
+#page-makeLogin .pageLeft main form fieldset .footer-button p.cadaster{
+   max-width: 200px;
+   line-height: 26px;
+}
+
+#page-makeLogin .pageLeft main form fieldset .footer-button strong{
+    color: var(--color-primary-dark);
+ }
+
+#page-makeLogin .pageLeft main form fieldset .footer-button p + p{
+    font-size: 1.2rem;
+}
+
+#page-makeLogin main form fieldset button{
+    width: 100%;
+    height: 56px;
+    margin-top: 20px;
+    background-color: var(--color-button-login);
+    color: var(--color-primary);
+    font: 700 1.6rem Archivo;
+    cursor: pointer;
+    transition: color 0.2s;
+    border: 0;
+    border-radius: 8px;
+}
+
+#page-makeLogin main form fieldset button:hover{
+    color: var(--color-primary-dark)
+}
+
+@media(min-width: 1400px) {
+    #page-makeLogin .pageRight .pageRightText p {
+        color: var(--color-text-in-primary);
+        font-size: 55px;
+        max-width: 40rem;
+        font: 500 4rem Poppins;
+        position: absolute;
+        top: 46rem;
+        left: 15rem;
+    }
+
+    #page-makeLogin .pageRight .pageRightText img {
+        width: 60rem;
+        top: 18rem;
+        position: absolute;
+        left: 15rem;
+        transform: rotate(360deg);
+    }
+
+
+    #page-makeLogin .pageLeft main form fieldset .footer{
+        font: 500 1.6rem Poppins;
+    }
+}
+
